@@ -1,2 +1,0 @@
-0 0 * * * root . /root/env.sh && echo "Hello World!" >> /var/log/cron.log 2>&1
-
