@@ -3,8 +3,7 @@ This repository contains Dockerfile of cron.
 
 # Usage
 ```
-$ make 
-$ cp crontab.sample crontab
+touch ./crontab
 #edit ./crontab
-$ docker run -d -v ${PWD}/crontab:/etc/crontab cron
+$ docker run -d -v ${PWD}/crontab:/etc/crontab shu65/cron
 ```
